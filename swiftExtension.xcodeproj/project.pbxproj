@@ -12,6 +12,7 @@
 		030DCD4F20FC913100D2D85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030DCD4D20FC913100D2D85D /* Main.storyboard */; };
 		030DCD5120FC915100D2D85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030DCD5020FC915100D2D85D /* Assets.xcassets */; };
 		030DCD5420FC915100D2D85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030DCD5220FC915100D2D85D /* LaunchScreen.storyboard */; };
+		031A502620FC96C9001D6C15 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031A502520FC96C9001D6C15 /* UIView-Extension.swift */; };
 		43E4AAFF0F4EEB9132E424B4 /* Pods_swiftExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930AD658493BA1BAA0F8D691 /* Pods_swiftExtension.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		030DCD5520FC915100D2D85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		030DCD5A20FC915100D2D85D /* swiftExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		030DCD6520FC915100D2D85D /* swiftExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		031A502520FC96C9001D6C15 /* UIView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		333D2A70FCA1BF0127DCA775 /* Pods-swiftExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftExtension/Pods-swiftExtension.release.xcconfig"; sourceTree = "<group>"; };
 		79572B89BA3FFC4BA7819B4C /* Pods-swiftExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftExtension/Pods-swiftExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		930AD658493BA1BAA0F8D691 /* Pods_swiftExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 		030DCD7720FC953900D2D85D /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				031A502520FC96C9001D6C15 /* UIView-Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031A502620FC96C9001D6C15 /* UIView-Extension.swift in Sources */,
 				030DCD4C20FC913100D2D85D /* ViewController.swift in Sources */,
 				030DCD4A20FC913100D2D85D /* AppDelegate.swift in Sources */,
 			);

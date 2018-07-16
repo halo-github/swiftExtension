@@ -7,4 +7,6 @@ target 'swiftExtension' do
 
   # Pods for swiftExtension
 	pod 'SnapKit'
+	pod 'RxCocoa'
+	pod 'RxSwift'
 end

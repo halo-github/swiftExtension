@@ -102,8 +102,16 @@
 				030DCD5020FC915100D2D85D /* Assets.xcassets */,
 				030DCD5220FC915100D2D85D /* LaunchScreen.storyboard */,
 				030DCD5520FC915100D2D85D /* Info.plist */,
+				030DCD7720FC953900D2D85D /* Extension */,
 			);
 			path = swiftExtension;
+			sourceTree = "<group>";
+		};
+		030DCD7720FC953900D2D85D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		88B2B7C6835FD27FAF68F810 /* Frameworks */ = {
